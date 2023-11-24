@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1600">
+    <title>tz</title>
+    <link rel='stylesheet' href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alpha marketing</h1>
+        <div class="block_one_BG">
+            <div class="block_one_content">
+                <img src="img/lamp_img_block_one_content.jpg">
+                <p>Разрабатываем диджитал кампании, используем диджитал инструменты для продвижения бренда
+                    Разрабатываем диджитал кампании, используем диджитал инструменты для продвижения бренда</p>
+                <h2>ПРОЕКТЫ</h2>
+                <ul>
+                    <li><a href="">вСЕ ПРОЕКТЫ</a></li>
+                    <li><a href="">Яндекс Директ</a></li>
+                    <li><a href="">My Target</a></li>
+                    <li><a href="">Яндекс Директ</a></li>
+                    <li><a href="">Одностраничные сайты</a></li>
+                    <li> <a href="">многостраничные  сайты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="grid_information">
+            <a href="#" class="grid_information_itom-1">
+                <img src="img/img_main_one_grid.png" alt="">
+                <h3>Bonne Clinique</h3>
+                <h2>Медицинский центр</h2>
+            </a>
+            <a href="#" class="grid_information_itom-2">
+                <img src="img/img_main_two_grid.png" alt="">
+                <h3>Оконный бутик</h3>
+                <h2>Пластиковые окна</h2>
+            </a>
+            <a href="#" class="grid_information_itom-3">
+                <img src="img/img_main_one_grid.png" alt="">
+                <h3>Genetic life</h3>
+                <h2>Медицинский центр</h2>
+            </a>
+            <a  href="#" class="grid_information_itom-4">
+                <img src="img/img_main_one_grid.png" alt="">
+                <h3>квиз ПЛк дома из бруса</h3>
+                <h2>Строительная компания</h2>
+            </a>
+            <a  href="#" class="grid_information_itom-5">
+                <img src="img/img_main_one_grid.png" alt="">
+                <h3>mongol store</h3>
+                <h2>Интернет-магазин одежды</h2>
+            </a>
+            <a  href="#" class="grid_information_itom-6">
+                <img src="img/img_main_one_grid.png" alt="">
+                <h3>Квиз Оконный бутик</h3>
+                <h2>Пластиковые окна</h2>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="botton_content">
+                <h2>Расскажите 
+                    <br/>о вашем проекте <br/></h>
+                <button>написать</button>
+            </div>
+            <hr size=3px  color="white">
+            <div class="information">
+                <div class="flex_item_one">
+                    <h4>Наш офис</h4>
+                    <p>Санкт-Петербург, <br/> Заозерная 8, к.2, офис 202</p>
+                </div>
+                <div class="flex_item_two">
+                    <h4>Для связи</h4>
+                    <p>8 (812) 409-52-22 </p>
+                    <p>info@alpham.pro</p>
+                </div>
+                <div class="flex_item_three">
+                    <h4>Мы в сети</h4>
+                    <a href="#">vkontakte</a>
+                </div>
+            </div>
+            <hr size=3px  color="white">
+            <div class="more">
+                <p>Alpha marketing LTD, 2022</p>
+                <a href="#">Политика конфидициальности</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

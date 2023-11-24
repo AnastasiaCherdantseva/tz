@@ -1,97 +1,317 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1600">
-    <title>tz</title>
-    <link rel='stylesheet' href="css/styles.css">
-</head>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Montserrat;
+}
 
-<body>
-    <header>
-        <h1>Alpha marketing</h1>
-        <div class="block_one_BG">
-            <div class="block_one_content">
-                <img src="img/lamp_img_block_one_content.jpg">
-                <p>Разрабатываем диджитал кампании, используем диджитал инструменты для продвижения бренда
-                    Разрабатываем диджитал кампании, используем диджитал инструменты для продвижения бренда</p>
-                <h2>ПРОЕКТЫ</h2>
-                <ul>
-                    <li><a href="">вСЕ ПРОЕКТЫ</a></li>
-                    <li><a href="">Яндекс Директ</a></li>
-                    <li><a href="">My Target</a></li>
-                    <li><a href="">Яндекс Директ</a></li>
-                    <li><a href="">Одностраничные сайты</a></li>
-                    <li> <a href="">многостраничные  сайты</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="grid_information">
-            <a href="#" class="grid_information_itom-1">
-                <img src="img/img_main_one_grid.png" alt="">
-                <h3>Bonne Clinique</h3>
-                <h2>Медицинский центр</h2>
-            </a>
-            <a href="#" class="grid_information_itom-2">
-                <img src="img/img_main_two_grid.png" alt="">
-                <h3>Оконный бутик</h3>
-                <h2>Пластиковые окна</h2>
-            </a>
-            <a href="#" class="grid_information_itom-3">
-                <img src="img/img_main_one_grid.png" alt="">
-                <h3>Genetic life</h3>
-                <h2>Медицинский центр</h2>
-            </a>
-            <a  href="#" class="grid_information_itom-4">
-                <img src="img/img_main_one_grid.png" alt="">
-                <h3>квиз ПЛк дома из бруса</h3>
-                <h2>Строительная компания</h2>
-            </a>
-            <a  href="#" class="grid_information_itom-5">
-                <img src="img/img_main_one_grid.png" alt="">
-                <h3>mongol store</h3>
-                <h2>Интернет-магазин одежды</h2>
-            </a>
-            <a  href="#" class="grid_information_itom-6">
-                <img src="img/img_main_one_grid.png" alt="">
-                <h3>Квиз Оконный бутик</h3>
-                <h2>Пластиковые окна</h2>
-            </a>
-        </div>
-    </main>
-    <footer>
-        <div class="footer_content">
-            <div class="botton_content">
-                <h2>Расскажите 
-                    <br/>о вашем проекте <br/></h>
-                <button>написать</button>
-            </div>
-            <hr size=3px  color="white">
-            <div class="information">
-                <div class="flex_item_one">
-                    <h4>Наш офис</h4>
-                    <p>Санкт-Петербург, <br/> Заозерная 8, к.2, офис 202</p>
-                </div>
-                <div class="flex_item_two">
-                    <h4>Для связи</h4>
-                    <p>8 (812) 409-52-22 </p>
-                    <p>info@alpham.pro</p>
-                </div>
-                <div class="flex_item_three">
-                    <h4>Мы в сети</h4>
-                    <a href="#">vkontakte</a>
-                </div>
-            </div>
-            <hr size=3px  color="white">
-            <div class="more">
-                <p>Alpha marketing LTD, 2022</p>
-                <a href="#">Политика конфидициальности</a>
-            </div>
-        </div>
-    </footer>
-</body>
+nav, footer, header, aside {
+  display: block;
+}
 
-</html>
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1;
+}
+
+@-webkit-keyframes nav_li_a {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(0, 29, 110);
+  }
+}
+
+@keyframes nav_li_a {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(0, 29, 110);
+  }
+}
+@-webkit-keyframes nav_li {
+  0% {
+    background-color: rgb(0, 29, 110);
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes nav_li {
+  0% {
+    background-color: rgb(0, 29, 110);
+  }
+  100% {
+    background-color: white;
+  }
+}
+@-webkit-keyframes footer_button {
+  0% {
+    color: white;
+    background-color: rgb(0, 29, 110);
+  }
+  100% {
+    color: rgb(0, 29, 110);
+    background-color: white;
+  }
+}
+@keyframes footer_button {
+  0% {
+    color: white;
+    background-color: rgb(0, 29, 110);
+  }
+  100% {
+    color: rgb(0, 29, 110);
+    background-color: white;
+  }
+}
+body {
+  margin-top: 24px;
+}
+body header {
+  width: 100%;
+}
+body header h1 {
+  margin: 0% 6.25%;
+  padding: 0px 0px 24px 40px;
+  width: 266px;
+  font-size: 30px;
+  font-weight: bold;
+}
+body header .block_one_BG {
+  background-color: rgb(0, 29, 110);
+}
+body header .block_one_BG .block_one_content {
+  margin: 0% 6.25%;
+}
+body header .block_one_BG .block_one_content img {
+  position: relative;
+  top: 124px;
+  left: 1144px;
+  right: 199px;
+}
+body header .block_one_BG .block_one_content p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 60px;
+  width: 557px;
+  color: white;
+}
+body header .block_one_BG .block_one_content h2 {
+  font-weight: bold;
+  font-size: 80px;
+  width: 434px;
+  color: white;
+  margin-top: 66px;
+  margin-bottom: 47px;
+}
+body header .block_one_BG .block_one_content ul {
+  width: 1354px;
+  padding-bottom: 109px;
+  list-style-type: none;
+}
+body header .block_one_BG .block_one_content ul li {
+  display: inline;
+  margin-right: 27px;
+  line-height: 70px;
+  padding: 15px 41px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+body header .block_one_BG .block_one_content ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: medium;
+}
+body header .block_one_BG .block_one_content ul li:hover {
+  -webkit-animation-name: nav_li;
+          animation-name: nav_li;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+body header .block_one_BG .block_one_content ul li:hover a {
+  -webkit-animation-name: nav_li_a;
+          animation-name: nav_li_a;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+body main {
+  position: relative;
+  width: 87.5%;
+  margin: 0% 6.25%;
+  top: -42px;
+}
+body main .grid_information {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 48% 40px 48%;
+  grid-template-columns: 48% 48%;
+  -ms-grid-rows: 33% 40px 33% 40px 33%;
+  grid-template-rows: 33% 33% 33%;
+  gap: 40px;
+  margin-bottom: 128px;
+}
+body main .grid_information > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+body main .grid_information > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+body main .grid_information > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+body main .grid_information > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+body main .grid_information > *:nth-child(5) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+body main .grid_information > *:nth-child(6) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+body main .grid_information a {
+  text-decoration: none;
+  color: black;
+}
+body main .grid_information a img {
+  margin-top: 100px;
+  margin-left: 101px;
+  margin-bottom: 97px;
+}
+body main .grid_information a h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  margin-left: 50px;
+}
+body main .grid_information a h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-bottom: 77px;
+}
+body main .grid_information .grid_information_itom-1 {
+  background-color: rgb(253, 220, 236);
+}
+body main .grid_information .grid_information_itom-2 {
+  background-color: rgb(196, 221, 255);
+}
+body main .grid_information .grid_information_itom-3 {
+  background-color: rgb(141, 198, 252);
+}
+body main .grid_information .grid_information_itom-4 {
+  background-color: rgb(255, 239, 239);
+}
+body main .grid_information .grid_information_itom-5 {
+  background-color: rgb(255, 235, 182);
+}
+body main .grid_information .grid_information_itom-6 {
+  background-color: rgb(255, 163, 163);
+}
+body footer {
+  width: 100%;
+  background: rgb(0, 29, 110);
+}
+body footer .footer_content {
+  margin: 0% 6.25%;
+  padding-top: 120px;
+}
+body footer .footer_content .botton_content {
+  margin-left: 40%;
+  margin-bottom: 112px;
+}
+body footer .footer_content .botton_content h2 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+body footer .footer_content .botton_content button {
+  background-color: rgb(0, 29, 110);
+  border: 1px solid white;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 100px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+body footer .footer_content .botton_content button:hover {
+  -webkit-animation-name: footer_button;
+          animation-name: footer_button;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+body footer .footer_content hr {
+  width: 100vw;
+  position: relative;
+  left: -112px;
+}
+body footer .footer_content .information {
+  margin: 74px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body footer .footer_content .information h4, body footer .footer_content .information p, body footer .footer_content .information a {
+  color: white;
+}
+body footer .footer_content .information h4 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 37px;
+}
+body footer .footer_content .information p, body footer .footer_content .information a {
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+body footer .footer_content .information .flex_item_one {
+  margin-right: 570px;
+}
+body footer .footer_content .information .flex_item_two {
+  margin-right: 84px;
+}
+body footer .footer_content .more {
+  margin-top: 67px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .footer_content .more p, body footer .footer_content .more a {
+  color: white;
+}
+body footer .footer_content .more p {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+}
+body footer .footer_content .more a {
+  font-size: 18px;
+  text-decoration: none;
+}
